@@ -1,0 +1,49 @@
+.sell-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.sell-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #03442e;
+}
+
+.sell-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sell-container input,
+.sell-container textarea,
+.sell-container select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.sell-container textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.sell-container button {
+    padding: 10px;
+    background-color: #2ECC71;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.sell-container button:hover {
+    background-color: #27AE60;
+}

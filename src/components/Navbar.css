@@ -1,0 +1,25 @@
+/* Navbar.css */
+header {
+    background-color: #03442e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.navbar a:hover {
+    background-color: #2ECC71;
+}
